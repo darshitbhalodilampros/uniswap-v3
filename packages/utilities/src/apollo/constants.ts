@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from "udonswap-core";
 
 /** Chains supported by the AssetActivity subscription service */
 export const SUBSCRIPTION_CHAINIDS = [
@@ -7,5 +7,4 @@ export const SUBSCRIPTION_CHAINIDS = [
   ChainId.BNB,
   ChainId.OPTIMISM,
   ChainId.POLYGON,
-  ChainId.CELO,
-]
+];
